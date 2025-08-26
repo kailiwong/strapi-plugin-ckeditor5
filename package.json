@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-strapi-editor-plugin-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Custom CKEditor 5 build for Strapi integration, enhanced with selected plugins and configuration.",
   "author": "Kaili Wong <kailiwong@ambercreative.sg>",
@@ -15,14 +15,24 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "webpack --mode production"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
     "@ckeditor/ckeditor5-react": "^11.0.0",
     "@vitejs/plugin-react": "^4.4.1",
+    "babel-loader": "^10.0.0",
     "ckeditor5": "46.0.2",
+    "css-loader": "^7.1.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "vite": "^6.3.3"
+    "style-loader": "^4.0.0",
+    "vite": "^6.3.3",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "webpack": "^5.101.3"
   }
 }
