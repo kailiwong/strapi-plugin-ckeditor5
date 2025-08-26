@@ -2,6 +2,17 @@
   "name": "ckeditor5-custom-project",
   "version": "0.0.1",
   "type": "module",
+  "description": "Custom CKEditor 5 build for Strapi integration, enhanced with selected plugins and configuration.",
+  "author": "Kaili Wong <kailiwong@ambercreative.sg>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kailiwong/strapi-plugin-ckeditor5.git"
+  },
+  "homepage": "https://github.com/kailiwong/strapi-plugin-ckeditor5#readme",
+  "bugs": {
+    "url": "https://github.com/kailiwong/strapi-plugin-ckeditor5/issues"
+  },
   "scripts": {
     "start": "vite"
   },
