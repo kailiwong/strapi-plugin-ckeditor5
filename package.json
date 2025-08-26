@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-strapi-custom-build",
+  "name": "ckeditor5-strapi-editor-plugin-component",
   "version": "0.0.1",
   "type": "module",
   "description": "Custom CKEditor 5 build for Strapi integration, enhanced with selected plugins and configuration.",
