@@ -14,7 +14,8 @@
     "url": "https://github.com/kailiwong/strapi-plugin-ckeditor5/issues"
   },
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-react": "^11.0.0",
